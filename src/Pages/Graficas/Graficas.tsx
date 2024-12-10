@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Navbar } from "../../Components/Navbar";
+import { GraficaComponent } from "../../Components/Graficas";
 // import React from 'react'
 
 export default function Graficas() {
@@ -16,6 +17,7 @@ export default function Graficas() {
       >
         <h2>Graficas</h2>
         <Outlet/>
+        <GraficaComponent/>
       </main>
     </div>
   );
