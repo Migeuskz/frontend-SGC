@@ -5,7 +5,7 @@ export default function Navbar() {
     <div
       className="d-flex flex-column bg-dark text-white"
       style={{
-        width: "50px", // Ancho inicial
+        width: "70px", // Ancho inicial
         height: "100vh",
         transition: "width 0.3s", // Transición suave para el hover
         position: "fixed", // Fijar el sidebar al lado izquierdo
