@@ -12,6 +12,7 @@ export default function Formularios() {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "90% 90%", // Posición hacia la derecha y abajo
     backgroundSize: "20%", // Reduce el tamaño de la imagen al 20% del contenedor
+    // hola
   }}
     >
       <Navbar/>
