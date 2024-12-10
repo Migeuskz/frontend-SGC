@@ -5,6 +5,7 @@ import { LoginForm } from "./Pages/LoginForm";
 import { Formularios } from "./Pages/Formularios";
 import { Graficas } from "./Pages/Graficas";
 import { GraficaComponent } from "./Components/Graficas";
+import { TablaPDF } from "./Components/TablaPDF";
 
 const router = createBrowserRouter([
   {
@@ -31,8 +32,8 @@ const router = createBrowserRouter([
     element: <Graficas/>,
     children: [
         {
-            path: '/graficas/graficaPDF',
-            element: <GraficaComponent/>
+            path: '/graficas/tabla',
+            element: <TablaPDF/>
         }
     ]
   }
