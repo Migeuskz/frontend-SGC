@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import {Navbar} from '../../Components/Navbar'
 import fondo from "../../../public/logo.svg";
 
 export default function Formularios() {
@@ -13,6 +14,7 @@ export default function Formularios() {
     backgroundSize: "20%", // Reduce el tamaño de la imagen al 20% del contenedor
   }}
     >
+      <Navbar/>
       <form
         style={{
           maxWidth: "800px",
