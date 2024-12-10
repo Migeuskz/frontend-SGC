@@ -18,7 +18,7 @@ export default function Navbar() {
     >
       <ul className="nav nav-pills flex-column mb-auto p-2">
         <li className="nav-item">
-          <Link to="/home/" className="nav-link text-white d-flex align-items-center">
+          <Link to="/home" className="nav-link text-white d-flex align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -39,7 +39,7 @@ export default function Navbar() {
         </li>
         <li className="nav-item">
           <Link
-            to="/home/formularios"
+            to="/formularios"
             className="nav-link text-white d-flex align-items-center"
           >
             <svg
