@@ -3,6 +3,8 @@ import { Login } from "./Layouts/Login";
 import { Home } from "./Layouts/Home";
 import { LoginForm } from "./Pages/LoginForm";
 import { Formularios } from "./Pages/Formularios";
+import { Graficas } from "./Pages/Graficas";
+import { GraficaComponent } from "./Components/Graficas";
 
 const router = createBrowserRouter([
   {
@@ -18,14 +20,23 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home/>,
+},
+{
+    path: '/formularios',
+    element: <Formularios/>,
+
+  },
+  {
+    path: "/graficas",
+    element: <Graficas/>,
     children: [
         {
-            path: '/home/formularios',
-            element: <Formularios/>
+            path: '/graficas/graficaPDF',
+            element: <GraficaComponent/>
         }
     ]
-
   }
+
 ]);
 
 export default router;
